@@ -1,0 +1,274 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.black {
+	background: black;
+	padding-top: 40px;
+	color: #EAEAEA;
+}
+.menu ul {
+	display: flex;
+	justify-content: space-between;
+}
+li {
+		display: inline-block;
+
+}
+
+h1, h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+h1{
+	font-size: 58px;
+	line-height: 40px;
+}
+.size {
+	font-size: 24px;
+	padding-top: -20px;
+}
+.color{
+	color: #00C2FC;
+}
+a {
+	text-decoration: none;
+	color: white;
+	margin-right: 10px;
+}
+a:hover {
+	color: #00C2FC;
+	text-decoration: none;
+}
+.img_size {
+	width: 9px;
+	margin-right: 5px;
+}
+.slider_img {
+	text-align: center;
+	filter: drop-shadow(0px 5px 4px grey); 
+}
+.slider_img img:nth-child(1), 
+.slider_img img:nth-child(3) {
+	width: 60%;
+}
+.slider_img img:nth-child(2){
+	width: 65%;
+	margin-left: -45%;
+	position: relative;
+	z-index: 1;
+	top:-1%;
+
+}
+.slider_img img:nth-child(3){
+	margin-left: -45%;
+}
+.slider_img img{
+	border: 20px solid white;
+}
+.lightgray {
+	background: #EAEAEA;
+	padding: 100px 0 70px;
+	margin-top: -2%;
+	display: flex;
+	justify-content: space-between;
+}
+.lightgray article {
+	/*border-right: 1px solid white;*/
+	padding-bottom: 5%;
+}
+
+.section-2{
+	width: 58%;
+	margin: 0 auto;
+}
+.section-2 h2 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 2.5em;
+	margin-bottom: 10%;
+}
+.about-photograph img
+ {
+	border: 10px solid white;
+	width: 88%;
+}
+.about-photograph a {
+	text-decoration: underline;
+	color:#11BEF6;
+}
+.Experiences {
+	margin-left:
+}
+.Experiences ul {
+	padding: 0;  
+}
+.Experiences h5,
+.size-fond h5
+  {
+	font-weight: 700;
+	font-size: 16.5px;
+}
+.Experiences img {
+	margin-right: 3%;
+}
+.Experiences p {
+	margin-top: -3%;
+	width: 70%;
+	margin-left: 6%;
+}
+.New .align
+{
+	display: flex;
+	justify-content: space-between;	
+	margin-left: -9%
+}
+.New .align a {
+	text-decoration: underline;
+	color: #11BEF6;
+}
+.number{
+	font-size: 34px;
+	text-align: center;
+	line-height: 20px;
+	color: #12C5FF;
+	font-weight: lighter;
+	margin-top: 4%;
+	
+}
+.number span {
+	font-size: 60px;
+}
+.align h5 {
+	text-decoration: underline;
+	margin-bottom:  -1%;
+}
+.align p {
+	width: 75%;
+
+}
+.about-photograph .buttom,
+.Experiences .buttom,
+.New .buttom,
+.buttom-position .buttom,
+.row .buttom{
+	text-decoration: none;
+	color: white;
+	background: #11BEF6;
+	padding: 5px 10px;
+
+}
+
+.buttom-position{
+	width: 87%;
+	margin-left: 1%;
+	margin-top: -1%;
+	display: flex;
+	justify-content: space-between;
+
+}
+.buttom-position .buttom {
+	margin-top: -3%;
+}
+.section-3 {
+	background: #3C3C3C;
+	color: white;
+	padding: 50px 0;
+}
+.philosophy {
+	width: 60%;
+	margin: 0 auto;
+}
+.philosophy img {
+	border: 6px solid white;
+	width: 100%;
+	margin-bottom: 2%;
+}
+.philosophy .width_p p {
+	 margin-left: 2%;
+	width: 85%;
+}
+.philosophy p {
+	width: 100%;
+}
+.philosophy a {
+	text-decoration: underline;
+	color: #318DE0;
+}
+.philosophy .col-md-8  {
+	border-right: 1px solid white;
+
+}
+.section-3 .number{
+	line-height: 30px;
+}
+
+.section-3 .align{
+	display: flex;
+	justify-content: space-around;	
+	margin-left: -19%;
+}
+
+.col-md-8 p{
+margin-bottom: 5%;
+}
+.col-md-3 .margin_p {
+	margin-bottom: 30%;
+}
+footer {
+	background: black;
+	padding: 50px 0;
+	color: white;
+}
+.footer {
+	width: 59%;
+	margin: 0 auto;
+
+}
+.footer a {
+	text-decoration: underline;
+	color: #15BAF3;
+}
+i {
+	
+	margin-right: 5px;
+}
+.mobile-adap{
+	display: none;
+	text-align: center;
+}@media screen and (max-width:860px){
+		.mobile-adap{
+		display: block;
+	}
+	.buttom-position{
+		display: none;
+	}
+		.section-3 .align{
+		margin-left: 0%;
+	}
+	.col-md-8 p{
+		margin-bottom: 0%;
+	}
+}
+@media screen and (max-width: 1366px){
+	.section-2 {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.philosophy {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.footer {
+		width: 80%;
+		margin: 0 auto;
+	}
+	i{
+		margin-top: 10px;
+		width: 12%;
+		text-align: center;
+	}
+	.section-3 .align{
+		margin-left: -7%;
+	}
+	.col-md-8 p{
+		margin-bottom: 11%;
+	}
+
+
+}
