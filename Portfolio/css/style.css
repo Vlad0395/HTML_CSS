@@ -231,7 +231,15 @@ i {
 .mobile-adap{
 	display: none;
 	text-align: center;
-}@media screen and (max-width:860px){
+}
+.section-2 article {
+	border-right: 1px solid white;
+}
+.section-2 article:nth-child(3){
+	border-right: none;
+	padding-left:5%;
+}
+@media screen and (max-width:860px){
 		.mobile-adap{
 		display: block;
 	}

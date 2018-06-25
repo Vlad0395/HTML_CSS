@@ -1,0 +1,471 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	line-height: 60px;
+	padding-top: 5px;
+	
+}
+.container{
+	border-bottom: 1px solid #E6E6E6;
+	border-top: 1px solid #E6E6E6;
+	
+}
+.navigation ul{
+	margin: 0;
+	padding: 0;
+}
+.navigation li {
+	display: inline-block;
+	text-align: center;
+}
+.navigation a {
+margin-left: 20px;
+color:#2F2F2F; 
+font-family: 'Arapey', serif;
+font-size: 20px;
+text-decoration: none;
+
+}
+.navigation a:hover{
+	color: #D67838;
+}
+.navigation h1 {
+	font-family: 'Courgette', cursive;
+	font-size: 3em;
+	font-weight: lighter;
+	padding: 0;
+	margin:0 auto;
+}
+.img_res_1{
+	background: url(../img/res_img_1.jpg) no-repeat;
+	background-size: cover;
+}
+.about {
+	background: url(../img/wood_1.png);
+	color:white;
+	margin: 0 auto;
+	padding: 3% 0;
+	text-align: center;
+}
+.about h2 {
+	text-align: center;
+}
+.about p{
+	padding: 0 20.5%;
+	line-height: 1.8em;
+	text-align: left;
+	padding-bottom: 3%;
+}
+.about hr {
+	border: 1px solid #F96C10;
+	width: 7%;
+}
+.about span {
+	font-family: 'IM Fell English SC', serif;
+	font-size: 56px;
+	line-height: 50px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-top: -1%;
+}
+.about a {
+	text-decoration: none;
+	color: white;
+	border: 2px solid #F96C10;
+	padding:5px 20px;
+	border-radius: 5px; 
+	font-family: 'Rye', cursive;
+
+}
+.section-1  {
+	display: flex;
+	justify-content: center;
+}
+.section-1 .container {
+	margin: 0;
+	padding: 0;
+	width: 100%
+}
+.slider-cite {
+	height: auto;
+	width: 95%;
+	padding: 100px 0;
+	/*background: grey;*/
+	margin:0 auto;
+}
+.slider-cite p{
+	margin-top: 10px;
+	font-family: 'IM Fell English SC', serif;
+}
+.size-carusel{
+	height: 250px;
+}
+.size-carusel li {
+	width: 10px;
+	padding: 5px 0;
+	border-radius: 50%;
+}
+cite {
+	font-family: 'Actor', sans-serif;
+	font-size: 2.8em;
+}
+.section-2{
+	background: url(../img/wood_1.png);
+	color: white;
+	
+}
+.section-2 .container{
+	border: none;
+	width: 80%;
+	margin: 0 auto;
+	color: #000;
+}
+.capSection-2,
+.capSection-4{
+	text-align: center;
+}
+.capSection-2 img{
+	padding: 50px 0 10px 0;
+}
+.capSection-2 hr,
+.capSection-4 hr{
+	width: 3%;
+	border: 1px solid #F96C10;
+}
+.capSection-4 p{
+	text-align: center;
+	width: 48%;
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 0 0 50px;
+
+}
+.capSection-2 p{
+	text-align: center;
+	width: 37%;
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 0 0 50px;
+}
+.img-tabel-1{
+	background: url(../img/res_img_1.jpg);
+}
+.img-tabel-2{
+	background: #FAEBCC;
+}
+.img-tabel-3{
+	background: url(../img/res_img_2.jpg);
+}
+.img-tabel-5{
+	background: url(../img/res_img_7.jpg);
+}
+.img-tabel-4{
+	background: #F5F5F5;
+}
+.section-2 .row{
+	height: 450px;
+}
+.size-col {
+	height: 225px;
+	width: auto;
+}
+.col-md-3 {
+	padding: 0;
+
+	text-align: center;
+}
+.col-md-3 hr{
+	width: 15%;
+	border: 1px solid #F96C10;
+}
+.section-2 p,
+.section-2 h5{
+	font-family: 'Slabo 27px', serif;
+}
+.section-2 .col-md-3 p{
+	padding:0 25% ;
+}
+.section-2 .col-md-3 .cost{
+	font-size: 40px;
+	color: #625237;
+}
+.indenting-top{
+	padding-top: 30px;
+}
+.section-3{
+	background: -webkit-radial-gradient(top, circle, #201F1A 3%, #0F1217);
+	color: white;
+	padding: 5% 0;
+}
+.section-3 .container{
+	display: flex;
+	width: 80%;
+	text-align: center;
+	justify-content:center;
+	border: none;
+}
+.section-3 aside {
+	padding: 0 6%;
+}
+.section-3 h3 {
+	padding: 8% 0;
+}
+.section-3 img {
+	border: 2px solid #404143;
+	border-radius: 50%;
+	padding: 10%;
+}
+/*.size-img-menu{
+	height: 100px;
+	background: grey;
+}*/
+.img-menu-1 img{
+	width: 65%;
+	padding: 0;
+	border-radius: 5px;
+	
+}
+.section-4 .col-md-7 {
+	margin-left: -30px;
+}
+.img-menu-2{
+	background: url(../img/res_img_2.jpg);
+}
+.section-4 .container{
+	display: flex;
+	width: 80%;
+	text-align: center;
+	justify-content:center;
+	border: none;
+}
+.section-4 .container p {
+	width: 100%;
+	font-size: 15px;
+}
+.section-4 .capSection-2 p,
+.section-4 img {
+	padding: 0;
+}
+.section-4 .size-img-menu h4,
+.section-4 .size-img-menu .col-md-7,
+.line-height-menu{
+	line-height: 72.89px;
+}
+.section-4 .size-img-menu p{
+	line-height: 15px;
+}
+#height-colmn{
+	height: 80px;
+	line-height: 80px;
+}
+#indenting-Drinks,
+#indenting-Steak{
+	padding-left: 20px;
+}
+.cost-2 {
+	color: #EA9558;
+}
+.section-4 .borderBottomRow{
+	width: 100%;
+	border: 1px dotted gray;
+	margin-top: -3px;
+}
+.section-4 .capSection-4 img {
+	padding: 50px 0 10px 0;
+
+}
+.section-4 {
+	padding-bottom: 30px;
+}
+.section-5{
+	padding-bottom: 10%;
+	background: #322922;
+	color: white;
+}
+.section-5 .capSection-4 img {
+	padding: 50px 0 10px 0;
+
+}
+.section-5 .capSection-4 p,
+.section-4 .capSection-4 p,
+.section-2 .capSection-2 p{
+	color: #928781;
+}
+.section-5 .container{
+	width: 80%;
+	text-align: center;
+	border: none;
+}
+.indenting-justify{
+	display: flex;
+	flex-direction: row;
+}
+.section-5 .col-md-4{
+	margin-right: 30px;
+}
+.section-5 #margin0{
+	margin-right: 0;
+}
+.block-info{
+	background: white;
+	color:#000;
+	padding: 15px;
+	margin-right: 10px;
+}
+.border-color-info {
+	padding: 40px 30px;
+	border: 2px solid #E6E6E6;
+}
+.block-info p {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	color: #5F5A57;
+}
+.block-info a{
+	border: 2px solid #FD6C14;
+	padding: 5px 20px;
+	border-radius: 3px;
+	color: #FD6C14;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+
+}
+.block-info hr {
+	width: 15%;
+	border: 1px solid #C67D52;
+}
+.section-6 {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1% 0;
+}
+.contact_info .align-block {
+	display: flex;
+	justify-content: left;
+	margin-bottom: 1%;
+}
+.contact_info,
+.reservation_form{
+	width:40%;
+}
+.reservation_form input,
+.reservation_form select,
+.reservation_form textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: 1px solid lightgray;
+	padding: 5px 0 5px 10px; 
+}
+.contact_info .align-block p {
+	width: 65%;
+	margin-left: 30px;
+	line-height: 2em;
+}
+.reservation_form {
+	display: inline-block;
+}
+.form_all {
+	display: flex;
+	justify-content: space-around;
+}
+.reservation_form .button {
+	width: 34%;
+	padding: 0;
+	padding: 5px 0px;
+	text-align: center;
+	letter-spacing: 1px;
+	background: #FC6B16;
+	color: white;
+}
+.section-6 p span{
+	color: #ED6F24;
+}
+footer{
+	background: #191919;
+	color: #7E7E7E;
+	text-align: center;
+	padding: 5% 0;
+}
+footer p {
+	width: 26%;
+	margin: 0 auto;
+	padding-bottom:2%; 
+}
+footer span,
+footer a{
+	color: #B55B1A;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #FB7014;
+}
+
+footer i {
+	color: #FB7014;
+	padding-top: 5%;
+	margin-left: 10px;
+}
+footer i:hover {
+	color: #05D105;
+}
+@media screen and (max-width: 1367px){
+	.capSection-2 p{
+		width: 37%;
+		font-size: 17px;
+	}
+	.section-2 .col-md-3 p{
+		padding:0 15% ;
+	}
+	.section-3 aside {
+		padding: 0 3%;
+    }
+    .section-3{
+	padding: 10% 0;
+	}
+	.section-3 img {
+		border: 2px solid #404143;
+		border-radius: 50%;
+		padding: 8%;
+	}
+}
+@media screen and (max-width: 1000px){
+	.indenting-justify{
+		flex-direction: column;
+		width: 100%;
+		margin: 0 auto 10%;
+	}
+	.block-info{
+		margin: 0 0 10px;
+	}
+	.section-3 aside {
+		padding: 0;
+	}
+	.section-3 h3 {
+		padding: 3% 0;
+	}
+	.section-3 img {
+		border: 2px solid #404143;
+		border-radius: 50%;
+		padding: 3%;
+	}
+	.form_all {
+		flex-direction: column;
+	}
+	.contact_info,
+	.reservation_form {
+		margin: 0 auto;
+	}
+	.align-column{
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.section-4 div{
+		margin: 0 auto;
+	}
+}
