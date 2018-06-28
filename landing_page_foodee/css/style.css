@@ -4,17 +4,30 @@
 	justify-content: space-between;
 	line-height: 60px;
 	padding-top: 5px;
-	
+	position: sticky;
+	top:0;
+	z-index: 100;
+	width: 100%;
+	background: #fff;
+	border: 1px solid white;
 }
-.container{
-	border-bottom: 1px solid #E6E6E6;
-	border-top: 1px solid #E6E6E6;
-	margin:0 auto;
+#Features,
+#Events,
+#Menu
+{
+	padding-top: 20px;
+}
+#Reserve{
+	padding-top: 65px;
+}
+.section-1 {
+	margin-top: 10px;
+}
 
-}
 .navigation ul{
 	margin: 0;
 	padding: 0;
+	font-family: 'Slabo 27px', serif;
 }
 .navigation li {
 	display: inline-block;
@@ -61,6 +74,7 @@ text-decoration: none;
 	text-align: left;
 	padding-bottom: 6%;
 	font-size: 24px;
+	font-family: 'Slabo 27px', serif;
 }
 .about hr {
 	border: 1px solid #F96C10;
@@ -69,7 +83,7 @@ text-decoration: none;
 .about span {
 	font-family: 'IM Fell English SC', serif;
 	font-size: 5em;
-	line-height: 100px;
+	line-height: 80px;
 	padding: 0;
 	margin: 0;
 	float: left;
@@ -92,7 +106,7 @@ text-decoration: none;
 .section-1 .container {
 	margin: 0;
 	padding: 0;
-	width: 100%
+	width: 98%
 }
 .slider-cite {
 	height: auto;
@@ -119,17 +133,7 @@ cite {
 	font-family: 'Actor', sans-serif;
 	font-size: 3.2em;
 }
-.section-2{
-	background: url(../img/wood_1.png);
-	color: white;
-	
-}
-.section-2 .container{
-	border: none;
-	width: 80%;
-	margin: 0 auto;
-	color: #000;
-}
+
 .capSection-2,
 .capSection-4{
 	text-align: center;
@@ -145,7 +149,7 @@ cite {
 }
 .capSection-4 p{
 	text-align: center;
-	width: 48%;
+	width: 40%;
 	font-size: 20px;
 	margin: 0 auto;
 	padding: 0 0 50px;
@@ -154,38 +158,41 @@ cite {
 .capSection-2 p{
 	text-align: center;
 	width: 37%;
-	font-size: 2em;
+	font-size: 20px;
 	margin: 0 auto;
 	padding: 0 0 50px;
 }
-.img-tabel-1{
-	background: url(../img/res_img_1.jpg);
-}
+
 .img-tabel-2{
 	background: #FAEBCC;
 }
-.img-tabel-3{
-	background: url(../img/res_img_2.jpg);
-}
-.img-tabel-5{
-	background: url(../img/res_img_7.jpg);
-}
+
 .img-tabel-4{
 	background: #F5F5F5;
+}
+
+
+
+
+.section-2{
+	background: url(../img/wood_1.png);
+	color: white;
+}
+.section-2 .container{
+	border: none;
+	width: 80%;
+	margin: 0 auto;
+	color: #000;
 }
 .section-2 .row{
 	height: 450px;
 }
-.size-col {
-	height: 225px;
-	width: auto;
-}
-.col-md-3 {
+.section-2 .col-md-6 {
 	padding: 0;
 
 	text-align: center;
 }
-.col-md-3 hr{
+.section-2  .col-md-6 hr{
 	width: 15%;
 	border: 1px solid #F96C10;
 }
@@ -193,13 +200,29 @@ cite {
 .section-2 h5{
 	font-family: 'Slabo 27px', serif;
 }
-.section-2 .col-md-3 p{
-	padding:0 25% ;
+.section-2 .col-md-6 p{
+	padding:0 10% ;
 }
-.section-2 .col-md-3 .cost{
+.section-2 .col-md-6 .cost{
 	font-size: 40px;
 	color: #625237;
 }
+.section-2 .container .size-img {
+	width: 100%;
+	height: 100%;
+}
+.section-2 .col-md-6,
+.section-2 .row {
+	padding: 0;
+	margin: 0;
+}
+.section-2 .size-column{
+	height: 50%;
+}
+
+
+
+
 .indenting-top{
 	padding-top: 30px;
 }
@@ -226,10 +249,7 @@ cite {
 	border-radius: 50%;
 	padding: 10%;
 }
-/*.size-img-menu{
-	height: 100px;
-	background: grey;
-}*/
+
 .img-menu-1 img{
 	width: 65%;
 	padding: 0;
@@ -239,9 +259,7 @@ cite {
 .section-4 .col-md-7 {
 	margin-left: -30px;
 }
-.img-menu-2{
-	background: url(../img/res_img_2.jpg);
-}
+
 .section-4 .container{
 	display: flex;
 	width: 80%;
@@ -416,7 +434,7 @@ footer a:hover {
 
 footer i {
 	color: #FB7014;
-	padding-top: 5%;
+	margin-top: 5%;
 	margin-left: 10px;
 }
 footer i:hover {
@@ -425,6 +443,33 @@ footer i:hover {
 .navigation-mobile {
 	display: none;
 }
+.section-2 h2,
+.section-3 h3,
+.section-4 h2,
+.section-4 h3,
+.section-5 h2,
+.section-6 h2,
+.section-6 h3{
+	font-family: 'Spirax', cursive;
+}
+
+.section-2 p,
+.section-3 p,
+.section-4 p,
+.section-5 p,
+.section-6 p{
+	font-family: 'Slabo 27px', serif;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1367px){
 	.capSection-2 p,
 	.capSection-4 p{
@@ -455,6 +500,10 @@ footer i:hover {
 	}
 }
 @media screen and (max-width: 1000px){
+	body {
+		width: 96%;
+		margin: 0 ;
+	}
 	.indenting-justify{
 		flex-direction: column;
 		width: 100%;
@@ -490,8 +539,6 @@ footer i:hover {
 	.section-4 div{
 		margin: 0 auto;
 	}
-}
-@media screen and (max-width: 375px){
 	.about {
 		margin: 0 auto;
 		padding: 5% 0;
@@ -596,5 +643,10 @@ footer i:hover {
 		font-weight: lighter;
 		padding: 0;
 		margin:0 auto;
+		
 	}
+	.section-2{
+		height: 1520px;
+	}
+
 }
