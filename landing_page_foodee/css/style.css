@@ -23,24 +23,46 @@
 .section-1 {
 	margin-top: 10px;
 }
-
-.navigation ul{
+.navigation ul,
+.about span,
+.section-1 .container,
+.section-2 .col-md-6,
+.section-2 .row
+{
 	margin: 0;
 	padding: 0;
+}
+.navigation li,
+.about,
+.about h2,
+.capSection-2 p,
+.capSection-4 p,
+.section-2 .col-md-6,
+.section-3 .container,
+.section-5 .container,
+footer,
+.reservation_form .button,
+.capSection-2,
+.capSection-4
+
+{
+	text-align: center;
+	
+}
+.navigation ul{
 	font-family: 'Slabo 27px', serif;
 }
 .navigation li {
 	display: inline-block;
-	text-align: center;
 	line-height: 50px;
 	
 }
 .navigation a {
-margin-left: 20px;
-color:#2F2F2F; 
-font-family: 'Arapey', serif;
-font-size: 1.5em;
-text-decoration: none;
+	margin-left: 20px;
+	color:#2F2F2F; 
+	font-family: 'Arapey', serif;
+	font-size: 1.5em;
+	text-decoration: none;
 
 }
 .navigation a:hover{
@@ -60,12 +82,9 @@ text-decoration: none;
 .about {
 	background: url(../img/wood_1.png);
 	color:white;
-	margin: 0 auto;
 	padding: 5% 0;
-	text-align: center;
 }
 .about h2 {
-	text-align: center;
 	font-size: 1.5em;
 }
 .about p{
@@ -104,8 +123,6 @@ text-decoration: none;
 	justify-content: center;
 }
 .section-1 .container {
-	margin: 0;
-	padding: 0;
 	width: 98%
 }
 .slider-cite {
@@ -134,10 +151,7 @@ cite {
 	font-size: 3.2em;
 }
 
-.capSection-2,
-.capSection-4{
-	text-align: center;
-}
+
 .capSection-2 img{
 	padding: 50px 0 10px 0;
 	width: 7%;
@@ -147,20 +161,18 @@ cite {
 	width: 3%;
 	border: 1px solid #F96C10;
 }
-.capSection-4 p{
-	text-align: center;
-	width: 40%;
-	font-size: 20px;
-	margin: 0 auto;
-	padding: 0 0 50px;
-
+.section-6 .capSection-4 p{
+	width: 45%;
 }
-.capSection-2 p{
-	text-align: center;
-	width: 37%;
+.capSection-2 p,
+.capSection-4 p{
 	font-size: 20px;
 	margin: 0 auto;
 	padding: 0 0 50px;
+}
+.capSection-2 p,
+.capSection-4 p{
+	width: 37%;
 }
 
 .img-tabel-2{
@@ -189,8 +201,6 @@ cite {
 }
 .section-2 .col-md-6 {
 	padding: 0;
-
-	text-align: center;
 }
 .section-2  .col-md-6 hr{
 	width: 15%;
@@ -211,18 +221,10 @@ cite {
 	width: 100%;
 	height: 100%;
 }
-.section-2 .col-md-6,
-.section-2 .row {
-	padding: 0;
-	margin: 0;
-}
+
 .section-2 .size-column{
 	height: 50%;
 }
-
-
-
-
 .indenting-top{
 	padding-top: 30px;
 }
@@ -234,7 +236,6 @@ cite {
 .section-3 .container{
 	display: flex;
 	width: 80%;
-	text-align: center;
 	justify-content:center;
 	border: none;
 }
@@ -261,11 +262,7 @@ cite {
 }
 
 .section-4 .container{
-	display: flex;
 	width: 80%;
-	text-align: center;
-	justify-content:center;
-	border: none;
 }
 .section-4 .container p {
 	width: 100%;
@@ -323,7 +320,6 @@ cite {
 }
 .section-5 .container{
 	width: 80%;
-	text-align: center;
 	border: none;
 }
 .indenting-justify{
@@ -404,7 +400,7 @@ cite {
 	width: 34%;
 	padding: 0;
 	padding: 5px 0px;
-	text-align: center;
+	
 	letter-spacing: 1px;
 	background: #FC6B16;
 	color: white;
@@ -415,7 +411,6 @@ cite {
 footer{
 	background: #191919;
 	color: #7E7E7E;
-	text-align: center;
 	padding: 5% 0;
 }
 footer p {
@@ -471,8 +466,7 @@ footer i:hover {
 
 
 @media screen and (max-width: 1367px){
-	.capSection-2 p,
-	.capSection-4 p{
+	.capSection-2 p{
 		width: 50%;
 		font-size: 24px;
 	}
@@ -504,9 +498,21 @@ footer i:hover {
 		width: 96%;
 		margin: 0 ;
 	}
+	.indenting-justify,
+	.section-5 .container,
+	.section-5 .block-info p ,
+	.section-6,
+	.section-6 .contact_info,
+	.section-6 .reservation_form,
+	.section-6 .button,
+	.section-6 .align-block p,
+	footer p
+	{
+		width: 100%;
+
+	}
 	.indenting-justify{
 		flex-direction: column;
-		width: 100%;
 		margin: 0 auto 10%;
 	}
 	.block-info{
@@ -526,21 +532,13 @@ footer i:hover {
 	.form_all {
 		flex-direction: column;
 	}
-	.contact_info,
-	.reservation_form {
-		margin: 0 auto;
-	}
+
 	.align-column{
 		display: flex;
 		flex-direction: column;
-		margin: 0 auto;
 	}
 
-	.section-4 div{
-		margin: 0 auto;
-	}
 	.about {
-		margin: 0 auto;
 		padding: 5% 0;
 	}
 	.about h2 {
@@ -589,51 +587,25 @@ footer i:hover {
 	 { 
 		text-align: center;
 	}
-	.section-4 .col-md-7  { 
-		margin: 0 auto;
-	}
-	.section-5 .container{
-		margin: 0 auto;
-		width: 100%;
-	}
-	.section-5 .block-info p {
-		width: 100%;
-	}
-	.section-6{
-		width: 100%;
-		margin: 0 auto;
-	}
+		
 	.section-6 .capSection-4 p{
 		font-size: 1.3em;
 		width: 90%;
 	}
 	.section-6 .form_all{
 		width: 90%;
-		margin: 0 auto;
 	}
-	.section-6 .contact_info{
-		width: 100%;
-	}
-	.section-6 .reservation_form{
-		width: 100%;
-	}
-	.section-6 .button {
-		width: 100%;
-	}
-	.section-6 .align-block p {
-		width: 100%;
-	}
+	
 	footer {
 		height: 250px;
-	}
-	footer p{
-		width: 100%;
 	}
 	.navigation{
 		display: none;
 	}
 	.navigation-mobile {
 		display: block;
+		display: flex;
+		justify-content: space-between;
 		
 	}
 	.navigation-mobile h1 {
@@ -648,5 +620,17 @@ footer i:hover {
 	.section-2{
 		height: 1520px;
 	}
-
+	.contact_info,
+	.reservation_form,
+	.align-column,
+	.section-4 div,
+	.about,
+	.section-4 .col-md-7,
+	.section-5 .container,
+	.section-6,
+	.section-6 .form_all,
+	.navigation-mobile h1
+	{
+		margin: 0 auto;
+	}
 }
