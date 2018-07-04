@@ -121,6 +121,7 @@ footer,
 .section-1  {
 	display: flex;
 	justify-content: center;
+	width: 98%;
 }
 .section-1 .container {
 	width: 98%
@@ -495,7 +496,7 @@ footer i:hover {
 }
 @media screen and (max-width: 1000px){
 	body {
-		width: 96%;
+		width: 100%;
 		margin: 0 ;
 	}
 	.indenting-justify,
@@ -517,6 +518,9 @@ footer i:hover {
 	}
 	.block-info{
 		margin: 0 0 10px;
+	}
+	.section-1 {
+		width: 96%;
 	}
 	.section-3 aside {
 		padding: 0;
